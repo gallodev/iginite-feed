@@ -1,9 +1,10 @@
 import styles from "./Header.module.css";
+import logo from "../assets/iginite-logo.svg";
 
 export function Header() {
   return (
     <header className={styles.header}>
-      <strong>Iginite feed</strong>
+      <img src={logo} />
     </header>
   );
 }
